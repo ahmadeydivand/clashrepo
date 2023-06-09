@@ -1,0 +1,101 @@
+#-------------------------------------------------------------#
+# Telegram Channel:@LONUP_M
+#-------------------------------------------------------------#
+mixed-port: 6985
+external-controller: 127.0.0.1:9090
+allow-lan: true
+log-level: info
+cfw-latency-timeout: 7000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
+experimental:
+  ignore-resolve-fail: true
+ipv6: false
+mode: rule
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  use-hosts: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 127.0.0.1:6868
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - https://1.0.0.1/dns-query
+    - https://dns.adguard.com/dns-query
+proxies:
+  - {"name":"(S481)🇸🇪t.me/PrivateVPNs","type":"trojan","server":"16.170.237.48","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S482)🇸🇪t.me/PrivateVPNs","type":"trojan","server":"16.170.172.115","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S483)🇩🇪t.me/PrivateVPNs","type":"trojan","server":"3.64.11.82","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S484)🇩🇪t.me/PrivateVPNs","type":"trojan","server":"3.73.132.94","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S485)🇨🇵t.me/PrivateVPNs","type":"trojan","server":"15.236.201.151","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S486)🇨🇵t.me/PrivateVPNs","type":"trojan","server":"13.38.45.92","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S487)🇬🇧t.me/PrivateVPNs","type":"trojan","server":"35.178.111.189","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S488)🇬🇧t.me/PrivateVPNs","type":"trojan","server":"18.132.13.26","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S489)🇨🇮t.me/PrivateVPNs","type":"trojan","server":"52.48.118.213","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S490)🇨🇮t.me/PrivateVPNs","type":"trojan","server":"34.240.73.75","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S491)🇸🇪t.me/PrivateVPNs","type":"trojan","server":"13.51.242.192","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S492)🇸🇪t.me/PrivateVPNs","type":"trojan","server":"13.48.130.182","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S493)🇩🇪t.me/PrivateVPNs","type":"trojan","server":"52.57.196.143","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S494)🇩🇪t.me/PrivateVPNs","type":"trojan","server":"3.71.6.14","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S495)🇨🇵t.me/PrivateVPNs","type":"trojan","server":"15.237.130.25","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S496)🇨🇵t.me/PrivateVPNs","type":"trojan","server":"13.38.59.209","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"(S497)🇬🇧t.me/PrivateVPNs","type":"trojan","server":"3.8.156.111","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+
+proxy-groups:
+  - name: 🌐ALL 〄 ⟪@LonUp_M⟫
+    type: select
+    proxies:
+      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
+      - DIRECT
+      - REJECT
+      - (S481)🇸🇪t.me/PrivateVPNs
+      - (S482)🇸🇪t.me/PrivateVPNs
+      - (S483)🇩🇪t.me/PrivateVPNs
+      - (S484)🇩🇪t.me/PrivateVPNs
+      - (S485)🇨🇵t.me/PrivateVPNs
+      - (S486)🇨🇵t.me/PrivateVPNs
+      - (S487)🇬🇧t.me/PrivateVPNs
+      - (S488)🇬🇧t.me/PrivateVPNs
+      - (S489)🇨🇮t.me/PrivateVPNs
+      - (S490)🇨🇮t.me/PrivateVPNs
+      - (S491)🇸🇪t.me/PrivateVPNs
+      - (S492)🇸🇪t.me/PrivateVPNs
+      - (S493)🇩🇪t.me/PrivateVPNs
+      - (S494)🇩🇪t.me/PrivateVPNs
+      - (S495)🇨🇵t.me/PrivateVPNs
+      - (S496)🇨🇵t.me/PrivateVPNs
+      - (S497)🇬🇧t.me/PrivateVPNs
+  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
+    type: url-test
+    interval: 300
+    tolerance: 500
+    url: https://api.v2fly.org/checkConnection.svgz
+    proxies:
+      - (S481)🇸🇪t.me/PrivateVPNs
+      - (S482)🇸🇪t.me/PrivateVPNs
+      - (S483)🇩🇪t.me/PrivateVPNs
+      - (S484)🇩🇪t.me/PrivateVPNs
+      - (S485)🇨🇵t.me/PrivateVPNs
+      - (S486)🇨🇵t.me/PrivateVPNs
+      - (S487)🇬🇧t.me/PrivateVPNs
+      - (S488)🇬🇧t.me/PrivateVPNs
+      - (S489)🇨🇮t.me/PrivateVPNs
+      - (S490)🇨🇮t.me/PrivateVPNs
+      - (S491)🇸🇪t.me/PrivateVPNs
+      - (S492)🇸🇪t.me/PrivateVPNs
+      - (S493)🇩🇪t.me/PrivateVPNs
+      - (S494)🇩🇪t.me/PrivateVPNs
+      - (S495)🇨🇵t.me/PrivateVPNs
+      - (S496)🇨🇵t.me/PrivateVPNs
+      - (S497)🇬🇧t.me/PrivateVPNs
+rules:
+  - GEOIP,IR,DIRECT
+  - DOMAIN-SUFFIX,.ir,DIRECT
+  - MATCH ,🌐ALL 〄 ⟪@LonUp_M⟫
