@@ -46,10 +46,10 @@ proxies:
   - {"name":"(S497)🇬🇧t.me/PrivateVPNs","type":"trojan","server":"3.8.156.111","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
 
 proxy-groups:
-  - name: 🌐ALL 〄 ⟪@LonUp_M⟫
+  - name: 🌐ALL 
     type: select
     proxies:
-      - ⚡test 〄 Ꮮᝪᑎᑌᑭ
+      - ⚡test 
       - DIRECT
       - REJECT
       - (S481)🇸🇪t.me/PrivateVPNs
@@ -69,7 +69,7 @@ proxy-groups:
       - (S495)🇨🇵t.me/PrivateVPNs
       - (S496)🇨🇵t.me/PrivateVPNs
       - (S497)🇬🇧t.me/PrivateVPNs
-  - name: ⚡test 〄 Ꮮᝪᑎᑌᑭ
+  - name: ⚡test 
     type: url-test
     interval: 300
     tolerance: 500
@@ -95,4 +95,4 @@ proxy-groups:
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
-  - MATCH ,🌐ALL 〄 
+  - MATCH ,🌐ALL 
